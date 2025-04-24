@@ -35,7 +35,7 @@ export default function Reviews() {
 
   return (
     <section id='reviews' className="relative flex flex-col gap-14 md:flex-row items-center justify-center py-12 px-6 w-[1440px] h-[661px] bg-[#EBE3CC]">
-      {/* Top-Right Decorative Images */}
+
 {/* Top Right Images */}
 <div className="absolute top-6 left-0 w-full z-30">
   <div className="relative w-full">
@@ -93,7 +93,7 @@ export default function Reviews() {
 </div>
 
 
-        {/* Circle + Quote */}
+        {/*  */}
         <div className="absolute -top-10 -right-16 w-[130px] h-[130px]">
           <Image
             src="/circle.png"
@@ -112,7 +112,7 @@ export default function Reviews() {
         </div>
       </div>
 
-      {/* Right: Review Text + Arrows */}
+      {/* Review */}
       <div className="mt-12 md:mt-0 md:ml-12 flex flex-col items-start">
         <h1 className="w-[413px] h-[60px] font-semibold text-3xl text-[#062D3E] mb-4">
           Customer Reviews

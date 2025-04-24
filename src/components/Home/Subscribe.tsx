@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function SubscribeSection() {
   return (
     <section className="w-full h-[320px] flex">
-      {/* Left - Image and yellow background */}
+      {/* Left */}
       <div className="bg-[#FBBD08] w-1/2 flex items-center justify-center relative">
         <Image
           src="/subscribe.png"
@@ -16,7 +16,7 @@ export default function SubscribeSection() {
         />
       </div>
 
-      {/* Right - Orange background */}
+      {/* Right */}
       <div className="bg-[#ED5C01] w-1/2 text-white px-12 py-10 flex flex-col justify-center relative">
         <h2 className="text-3xl font-semibold text-[#062D3E] leading-tight mb-6">
           Subscribe & Get Fashion <br /> Updatenews

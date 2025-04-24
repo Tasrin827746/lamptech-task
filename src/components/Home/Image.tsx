@@ -15,7 +15,7 @@ export default function FullWidthImage() {
       </div>
   
   <div className="flex ml-24">
-      {/* 3. Two Clothing Images with Opacity */}
+      {/* Two Images with Opacity */}
   <div className="grid grid-cols-1 gap-4">
   {["jacket.jpg", "sweater.jpg"].map((img, i) => (
     <div
@@ -32,11 +32,11 @@ export default function FullWidthImage() {
   ))}
 </div>
 
- {/* 4. Big Circular Center Image */}
+ {/* Big Circular Image */}
  <div className="w-[175px] h-[175px] rounded-full overflow-hidden border-[6px] border-white flex-shrink-0">
         <img src="/big.png" alt="Main clothing" className="w-full h-full object-cover" />
       </div>
-       {/* 5. 8 Circular Thumbnails */}
+       {/* Circular Thumbnails */}
        <div className="grid grid-cols-4 gap-4">
   {[
     "t shirt.avif", "t shirt.webp", "jacket.jpg", "sweater.jpg",

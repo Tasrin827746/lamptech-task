@@ -79,9 +79,11 @@ export default function ProductPage() {
 
   return (
     <div className="bg-[#EFE3CE] pt-[120px] px-10">
-      {/* Top section: image + title/price/button */}
+
+      {/*  */}
       <div className='h-[892px] w-[1109px] top-[140px] left-[165px]'>
       <div className="flex flex-col md:flex-row gap-10 items-start">
+        
         {/* Image */}
         <div className="flex-1 bg-white p-4 rounded-lg">
           <Image
@@ -93,7 +95,7 @@ export default function ProductPage() {
           />
         </div>
 
-        {/* Title + Price + Button */}
+        {/*  */}
         <div className="flex-1 flex flex-col gap-6 justify-center mt-16">
           <h1 className="text-3xl font-bold text-[#272727] top-[120x] left-[665px]">{product.title}</h1>
           <p className="text-4xl font-semibold text-[#272727]">BDT {product.price}</p>
@@ -103,7 +105,7 @@ export default function ProductPage() {
         </div>
       </div>
 
-      {/* Bottom details section */}
+      {/* details section */}
       <div className="mt-10 space-y-6 text-[#1C1C1C]">
         <h1 className='text-center text-[#002482]'>Product Details</h1>
         <div className='border border-[#002482] w-1/4 flex items-center justify-center mx-auto'></div>
